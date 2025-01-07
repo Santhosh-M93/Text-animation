@@ -1,0 +1,33 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: content-box;
+}
+body{
+    background-color: #333;
+    width:100vW;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size:150px;
+    background:linear-gradient(140deg,rgba(53,219,164,1)9%,rgba(0,212,255,1)80%);
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip:text;
+    animation:txt 2s ease infinite;
+    background-size: 400% 400%;
+}
+@keyframes txt{
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position:100%;
+    }
+    100%{
+        background-position: 0%;
+    }
+}
